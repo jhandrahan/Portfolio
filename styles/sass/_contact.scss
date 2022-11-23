@@ -1,0 +1,77 @@
+.contact{
+    margin:50px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    background-color: $quaternary;
+    text-align: center;
+    h2{
+        color: $quinary;
+        margin-bottom: 0;
+    }
+    a{
+        padding: 10px 0px 5px 0px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        
+    }
+    a:hover{
+    color: $tertiary;
+    opacity: 0.5;
+    text-decoration: underline;
+    }
+
+    h3{
+        margin-top: 0;
+        margin-bottom: 10%;
+        color: white;
+        text-align: center;
+        @include fontSize(35)
+    }
+    
+}
+.formMapContainer{
+    position: relative;
+}
+form {
+    position: absolute;
+    background-color: $quinary;
+    border-radius: 30px;
+    max-width: 800px;
+    padding: 35px 35px;
+    z-index: 1;
+    left: 50%;
+    margin-left: -400px;
+    bottom: 50%;
+}
+
+input,
+textarea,
+select{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input::placeholder,
+textarea::placeholder{
+    color: white;
+    opacity: .4;
+}
+input{
+    width: 49%;
+}
+textarea{
+    width: 100%;
+}
+
+.map img{
+    opacity: 0.5;
+}
+
+form {
+  text-align: center;
+}
+.formBtn{
+    margin-top: 35px;
+}
+

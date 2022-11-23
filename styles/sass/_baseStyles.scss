@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+section{
+    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+.wrapper{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    background: linear-gradient(to bottom right,  $quaternary, $secondary, $primary);
+    border-radius: 12px;
+    color: $quinary;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0 10px;
+    text-align: center;
+}
+
+button:focus {
+    color: white;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5), -.2rem -.2rem 1rem rgba(248, 118, 142, 0.5), .2rem .2rem 1rem rgba(246, 158, 104, 0.5);
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5), -.2rem -.2rem 1rem rgba(248, 118, 142, 0.5), .2rem .2rem 1rem rgba(246, 158, 104, 0.5);
+}
+
+
+
+a:hover{
+    color:$primary;
+}

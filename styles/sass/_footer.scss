@@ -1,0 +1,27 @@
+footer p {
+    margin: 0px 10px;
+    
+}
+
+.footerContainer{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+}
+
+.footerIcons{
+    display: flex;
+
+    a{
+        color: white;
+        opacity: 0.5;
+        margin: 0px 10px;
+    }
+    a:hover{
+        background-image: linear-gradient(45deg, $primary, $secondary, $tertiary, );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+        
+    }
+}

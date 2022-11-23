@@ -1,0 +1,42 @@
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    p::first-letter {
+        font-size: 200%;
+        font-family: $primaryFont;
+        color: $quaternary;
+        text-shadow: 1.5px 1.5px 2px rgba(248, 246, 246, 0.8);
+    }
+
+}
+
+.profileImg img {
+    max-width: 25%;
+    display: block; //prevent underneath spacing
+    border-radius: 50%;
+    margin: auto;
+    border: 7px double $secondary;
+    
+}
+
+
+.aboutIcons {
+    margin-top: 50px;
+        ul{
+        display: flex;
+        justify-content: space-between;
+        color: $secondary;
+        }
+        a{
+            color: $secondary;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $quaternary;
+            opacity: 0.8;
+        }
+}
+
+
+

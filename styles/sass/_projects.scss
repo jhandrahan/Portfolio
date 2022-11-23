@@ -1,0 +1,39 @@
+.projects{
+    h3{
+        margin: 5px 0px 5px 0px;
+    }
+    h4{
+        margin: 0;
+    }
+    li{
+        margin: 100px 0px;
+    }
+    button a{
+        text-decoration: none;
+        color: black;
+    }
+    button a:hover{
+        color:white;
+    }
+   
+}
+
+.projectContainer{
+    display: flex;    
+}
+
+.textContainer{
+    padding-right: 10%;
+}
+
+.projectImg{
+    max-width: 30%;
+    position: relative;
+}
+.projectImg img[src="./assets/mobileBarOne.png"] {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+
+}
+
