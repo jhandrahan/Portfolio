@@ -11,20 +11,48 @@ h1 {
     margin: 0;
 }
 
-// NAV
+// NAV***************************************???
 
 nav{
     color: white;
+
+    button{
+        border: none;
+        background: transparent;
+        color: white;
+    }
+
+    button:hover{
+        box-shadow: none;
+        color: $quaternary;
+    }
+
+        button:focus {
+            box-shadow: none;
+            
+        }
+    
+    ul {
+        font-family: $primaryFont;
+        display: flex;
+        justify-content: center;
+       
+    }
+    li {
+        margin: 10px 40px;
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color:$quaternary;
+        text-decoration: underline;
+    }
+   
 }
 
-nav ul{
-    font-family: $primaryFont;
-    display: flex;
-    justify-content: center;
-}
-nav li {
-    margin: 10px 40px;
-} 
 
 
 
@@ -34,10 +62,12 @@ nav li {
 
 .show {
     display: block;
-    animation-name: slide_out;
-    animation-duration: 2s;
-    border-radius: 50%;
-    background-color: $tertiary;
+    background-color: rgba(0, 0, 0, .95);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    text-align: center;
 }
 
 
@@ -53,13 +83,15 @@ nav li {
         margin-top: 10px;
     }
 
-i:hover{
-    transform: scale(1.6);
-    background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary,);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    i:hover{
+        transform: scale(1.6);
+        background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary,);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
-}
+
+
 .animate__bounceInDown {
     --animate-duration: 2s;
 }
