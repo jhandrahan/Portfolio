@@ -10,9 +10,11 @@ h1 {
     text-align: center;
     margin: 0;
 }
+
+// NAV
+
 nav{
     color: white;
-    display: none;
 }
 
 nav ul{
@@ -22,9 +24,25 @@ nav ul{
 }
 nav li {
     margin: 10px 40px;
+} 
+
+
+
+.mobileMenu {
+    display: none;
+}
+
+.show {
+    display: block;
+    animation-name: slide_out;
+    animation-duration: 2s;
+    border-radius: 50%;
+    background-color: $tertiary;
 }
 
 
+
+// social media icons
 .contactIcons {
     position: absolute;
     bottom: 1px;

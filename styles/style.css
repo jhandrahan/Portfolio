@@ -368,7 +368,6 @@ h1 {
 
 nav {
   color: white;
-  display: none;
 }
 
 nav ul {
@@ -383,6 +382,20 @@ nav ul {
 
 nav li {
   margin: 10px 40px;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.show {
+  display: block;
+  -webkit-animation-name: slide_out;
+          animation-name: slide_out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  border-radius: 50%;
+  background-color: #0EEBFB;
 }
 
 .contactIcons {
