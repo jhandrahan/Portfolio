@@ -366,6 +366,28 @@ h1 {
   margin: 0;
 }
 
+.contactIcons {
+  position: absolute;
+  bottom: 1px;
+  margin: 15px;
+  font-size: 35px;
+}
+.contactIcons i {
+  margin-top: 10px;
+}
+.contactIcons i:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animate__bounceInDown {
+  --animate-duration: 2s;
+}
+
 nav {
   color: white;
 }
@@ -404,6 +426,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
 .mobileMenu {
   display: none;
 }
@@ -416,28 +450,6 @@ nav a:hover {
   z-index: 99;
   height: 100%;
   text-align: center;
-}
-
-.contactIcons {
-  position: absolute;
-  bottom: 1px;
-  margin: 15px;
-  font-size: 35px;
-}
-.contactIcons i {
-  margin-top: 10px;
-}
-.contactIcons i:hover {
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
-  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.animate__bounceInDown {
-  --animate-duration: 2s;
 }
 
 .about {

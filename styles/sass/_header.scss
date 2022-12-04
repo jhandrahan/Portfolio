@@ -11,65 +11,6 @@ h1 {
     margin: 0;
 }
 
-// NAV***************************************???
-
-nav{
-    color: white;
-
-    button{
-        border: none;
-        background: transparent;
-        color: white;
-    }
-
-    button:hover{
-        box-shadow: none;
-        color: $quaternary;
-    }
-
-        button:focus {
-            box-shadow: none;
-            
-        }
-    
-    ul {
-        font-family: $primaryFont;
-        display: flex;
-        justify-content: center;
-       
-    }
-    li {
-        margin: 10px 40px;
-        
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    a:hover{
-        color:$quaternary;
-        text-decoration: underline;
-    }
-   
-}
-
-
-
-
-.mobileMenu {
-    display: none;
-}
-
-.show {
-    display: block;
-    background-color: rgba(0, 0, 0, .95);
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    height: 100%;
-    text-align: center;
-}
-
 
 
 // social media icons
