@@ -1,59 +1,38 @@
-// NAV***************************************???
+
 
 nav {
-
     color: white;
-
-    button {
-        border: none;
-        background: transparent;
-        color: white;
-    }
-
-    button:hover {
-        box-shadow: none;
-        color: $quaternary;
-    }
-
-    button:focus {
-        box-shadow: none;
-
-    }
 
     ul {
         font-family: $primaryFont;
-        display: flex;
-        justify-content: center;
-
     }
 
     li {
         margin: 10px 40px;
-
     }
-
     a {
         color: white;
         text-decoration: none;
     }
-
     a:hover {
-        color: $quaternary;
         text-decoration: underline;
     }
 }
 
 .bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 40px;
+    height: 5px;
+    margin: 8px auto;
     background-color: white;
 }
 
 .hamburger {
     cursor: pointer;
-    
+}
+
+.hamburger div:hover span{
+    color: blue;
 }
 
 .mobileMenu {
