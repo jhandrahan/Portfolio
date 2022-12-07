@@ -31,7 +31,7 @@ section{
     margin: 0 auto;
 }
 
-button {
+.btn {
     background: linear-gradient(to bottom right,  $quaternary, $secondary, $primary);
     border-radius: 12px;
     color: $quinary;
@@ -41,12 +41,12 @@ button {
     text-align: center;
 }
 
-button:focus {
+.btn:focus {
     color: white;
     box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5), -.2rem -.2rem 1rem rgba(248, 118, 142, 0.5), .2rem .2rem 1rem rgba(246, 158, 104, 0.5);
 }
 
-button:hover {
+.btn:hover {
     color: white;
     box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5), -.2rem -.2rem 1rem rgba(248, 118, 142, 0.5), .2rem .2rem 1rem rgba(246, 158, 104, 0.5);
 }

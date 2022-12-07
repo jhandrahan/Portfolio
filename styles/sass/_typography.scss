@@ -11,7 +11,7 @@ body {
 h1{
     color: white;
     font-family: $primary;
-    @include fontSize(200);
+    @include fontSize(180);
     text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px $primary;
 }
 

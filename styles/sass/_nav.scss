@@ -1,8 +1,6 @@
 
 
 nav {
-    color: white;
-
     ul {
         font-family: $primaryFont;
     }
@@ -17,6 +15,11 @@ nav {
     a:hover {
         text-decoration: underline;
     }
+
+    button:hover{
+        color: purple;
+    }
+    
 }
 
 .bar {
@@ -27,13 +30,23 @@ nav {
     background-color: white;
 }
 
+
 .hamburger {
     cursor: pointer;
+    position: fixed;
+    z-index: 100;
+
+    .hamburger:hover{
+        color: purple;
+    }
+
+    //with favicon button
+    // border: none;
+    // color: white;
+    // background: transparent;
+    // position: fixed;
 }
 
-.hamburger div:hover span{
-    color: blue;
-}
 
 .mobileMenu {
     display: none;

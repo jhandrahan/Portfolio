@@ -249,8 +249,8 @@ body {
 h1 {
   color: white;
   font-family: #CA0266;
-  font-size: 200px;
-  font-size: 10rem;
+  font-size: 180px;
+  font-size: 9rem;
   text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px #CA0266;
 }
 
@@ -326,7 +326,7 @@ section {
   margin: 0 auto;
 }
 
-button {
+.btn {
   background: -webkit-gradient(linear, left top, right bottom, from(#6d439b), color-stop(#EE5E59), to(#CA0266));
   background: linear-gradient(to bottom right, #6d439b, #EE5E59, #CA0266);
   border-radius: 12px;
@@ -337,13 +337,13 @@ button {
   text-align: center;
 }
 
-button:focus {
+.btn:focus {
   color: white;
   -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5), -0.2rem -0.2rem 1rem rgba(248, 118, 142, 0.5), 0.2rem 0.2rem 1rem rgba(246, 158, 104, 0.5);
           box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5), -0.2rem -0.2rem 1rem rgba(248, 118, 142, 0.5), 0.2rem 0.2rem 1rem rgba(246, 158, 104, 0.5);
 }
 
-button:hover {
+.btn:hover {
   color: white;
   -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5), -0.2rem -0.2rem 1rem rgba(248, 118, 142, 0.5), 0.2rem 0.2rem 1rem rgba(246, 158, 104, 0.5);
           box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5), -0.2rem -0.2rem 1rem rgba(248, 118, 142, 0.5), 0.2rem 0.2rem 1rem rgba(246, 158, 104, 0.5);
@@ -363,8 +363,8 @@ header {
 
 h1 {
   text-align: center;
-  margin: -20px;
-  padding-right: 20px;
+  margin: 0px;
+  padding-right: 90px;
 }
 
 .contactIcons {
@@ -389,9 +389,6 @@ h1 {
   --animate-duration: 2s;
 }
 
-nav {
-  color: white;
-}
 nav ul {
   font-family: "Philosopher", sans-serif;
 }
@@ -405,6 +402,9 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+nav button:hover {
+  color: purple;
+}
 
 .bar {
   display: block;
@@ -416,10 +416,11 @@ nav a:hover {
 
 .hamburger {
   cursor: pointer;
+  position: fixed;
+  z-index: 100;
 }
-
-.hamburger div:hover span {
-  color: blue;
+.hamburger .hamburger:hover {
+  color: purple;
 }
 
 .mobileMenu {
