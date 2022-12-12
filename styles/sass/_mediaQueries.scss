@@ -1,0 +1,80 @@
+@media (max-width: 1380px ){
+  form{
+    bottom: 45%;
+    padding: 20px 35px;
+  }
+    .contact h3 {
+      margin-bottom: 10.5%;
+    }
+}
+@media (max-width: 1200px) {
+  form {
+    bottom: 35%;
+    
+  }
+  .contact h3{
+    margin-bottom: 11%;
+  }
+}
+
+@media (max-width: 1030px) {
+  form {
+    bottom: 25%;
+  }
+}
+
+@media (max-width: 1015px){
+    h1{
+      padding-right: 0px; 
+    }
+    h1 span{
+        display: none;
+    }
+    form{
+      bottom: 23%;
+    }
+}
+
+@media (max-width: 920px){
+  .contact h3{
+    @include fontSize(30)
+  }
+  form{
+    bottom:15%
+  }
+}
+
+@media (max-width: 895px) {
+  .contact h3 {
+    margin-bottom: 11.5%;
+  }
+
+  form {
+    bottom: 13%
+  }
+}
+
+@media (max-width: 840px) {
+ .map img{
+    opacity: 0;
+ }
+
+ .contact h3{
+  opacity: 0;
+ }
+
+}
+
+@media (max-width: 800px){
+  .map img {
+      display: none;
+    }
+  
+    .contact h3 {
+      display: none;
+    }
+ form{
+    position: static;
+    margin-left: 0px;
+   }
+}

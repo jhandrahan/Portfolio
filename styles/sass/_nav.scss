@@ -16,9 +16,6 @@ nav {
         text-decoration: underline;
     }
 
-    button:hover{
-        color: purple;
-    }
     
 }
 
@@ -32,13 +29,11 @@ nav {
 
 
 .hamburger {
+    margin-left: 10px;
     cursor: pointer;
     position: fixed;
     z-index: 100;
 
-    .hamburger:hover{
-        color: purple;
-    }
 
     //with favicon button
     // border: none;
