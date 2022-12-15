@@ -813,6 +813,16 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  footer {
+    font-size: 12px;
+    font-size: 0.6rem;
+  }
+  footer p {
+    margin: auto;
+  }
+  footer .footerIcons {
+    display: none;
+  }
 }
 @media (max-width: 400px) {
   h1 {
@@ -859,15 +869,5 @@ footer p {
   }
   textarea {
     width: 100%;
-  }
-  footer {
-    font-size: 12px;
-    font-size: 0.6rem;
-  }
-  footer p {
-    margin: auto;
-  }
-  footer .footerIcons {
-    display: none;
   }
 }

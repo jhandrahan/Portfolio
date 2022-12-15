@@ -111,6 +111,9 @@
 
   }
 }
+
+
+
 @media (max-width: 480px){
 h1 {
     @include fontSize(100);
@@ -118,6 +121,18 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+
+         footer {
+           @include fontSize(12);
+    
+           p {
+             margin: auto;
+           }
+    
+           .footerIcons {
+             display: none;
+           }
+         }
 }
 
 
@@ -177,16 +192,6 @@ h1 {
     
     }
 
-    footer{
-      @include fontSize(12);
-      
-      p{
-        margin: auto;
-      }
-
-      .footerIcons{
-        display: none;
-      }
-    }
+ 
     
 }
