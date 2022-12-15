@@ -77,7 +77,7 @@
    }
 }
 
-@media (max-width: 375px){
+@media (max-width: 400px){
   h1{
     @include fontSize(90);
     padding-top: 50px;
@@ -89,6 +89,13 @@
       @include fontSize(20)
     }
 
-   
+    .contactIcons{
+      position: static;
+    }
+
+   .iconFlexContainer{
+    display: flex;
+    justify-content: space-around;
+   }
 
 }
