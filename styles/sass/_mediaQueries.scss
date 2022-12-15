@@ -77,7 +77,20 @@
    }
 }
 
+@media(max-width: 700px) {
+//SKILLS
+
+  .devIcons {
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+}
+
+
+
 @media (max-width: 400px){
+ //HEADER 
   h1{
     @include fontSize(90);
     padding-top: 50px;
@@ -97,5 +110,14 @@
     display: flex;
     justify-content: space-around;
    }
+
+     .devIcons {
+     
+  
+       span {
+         font-size: 2.8rem;
+       }
+     }
+
 
 }

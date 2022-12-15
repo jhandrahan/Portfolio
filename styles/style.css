@@ -489,8 +489,8 @@ nav a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 14%;
+  margin-right: 14%;
 }
 
 .devIcons li {
@@ -757,6 +757,12 @@ footer p {
     margin-left: 0px;
   }
 }
+@media (max-width: 700px) {
+  .devIcons {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 @media (max-width: 400px) {
   h1 {
     font-size: 90px;
@@ -783,5 +789,8 @@ footer p {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .devIcons span {
+    font-size: 2.8rem;
   }
 }
