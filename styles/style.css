@@ -614,8 +614,12 @@ textarea,
 select {
   color: white;
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   border-bottom: 1px solid white;
+}
+
+textarea {
+  margin-top: 5px;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -652,6 +656,14 @@ textarea {
   width: 100%;
 }
 
+input:hover {
+  border: 1px solid #6d439b;
+}
+
+textarea:hover {
+  border: 1px solid #6d439b;
+}
+
 .map img {
   opacity: 0.5;
 }
@@ -661,7 +673,17 @@ form {
 }
 
 .formBtn {
+  border-radius: 12px;
+  line-height: 1.5;
+  padding: 0 10px;
   margin-top: 35px;
+  background: #6d439b;
+  border: 1px solid #6d439b;
+}
+
+.formBtn:hover {
+  color: white;
+  border: 1px solid white;
 }
 
 footer p {
@@ -825,6 +847,9 @@ footer p {
   }
   footer .footerIcons {
     display: none;
+  }
+  .profileImg img {
+    max-width: 50%;
   }
 }
 @media (max-width: 400px) {
