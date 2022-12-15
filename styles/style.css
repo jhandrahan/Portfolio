@@ -762,6 +762,22 @@ footer p {
     margin-left: 0px;
   }
 }
+@media (max-width: 750px) {
+  .projectContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .projectImg {
+    max-width: 80%;
+    margin-top: 30px;
+  }
+}
 @media (max-width: 700px) {
   .devIcons {
     margin-left: 5%;
