@@ -715,9 +715,6 @@ footer p {
   h1 {
     padding-right: 0px;
   }
-  h1 span {
-    display: none;
-  }
   form {
     bottom: 23%;
   }
@@ -757,5 +754,23 @@ footer p {
   form {
     position: static;
     margin-left: 0px;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 90px;
+    font-size: 4.5rem;
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  span {
+    font-size: 20px;
+    font-size: 1rem;
   }
 }
