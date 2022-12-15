@@ -176,5 +176,17 @@ h1 {
       width: 100%;
     
     }
+
+    footer{
+      @include fontSize(12);
+      
+      p{
+        margin: auto;
+      }
+
+      .footerIcons{
+        display: none;
+      }
+    }
     
 }

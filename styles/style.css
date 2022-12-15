@@ -588,6 +588,7 @@ nav a:hover {
   margin-bottom: 10%;
   color: white;
   text-align: center;
+  font-family: "Mulish", sans-serif;
   font-size: 35px;
   font-size: 1.75rem;
 }
@@ -858,5 +859,15 @@ footer p {
   }
   textarea {
     width: 100%;
+  }
+  footer {
+    font-size: 12px;
+    font-size: 0.6rem;
+  }
+  footer p {
+    margin: auto;
+  }
+  footer .footerIcons {
+    display: none;
   }
 }

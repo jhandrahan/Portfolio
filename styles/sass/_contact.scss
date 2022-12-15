@@ -25,7 +25,9 @@
         margin-bottom: 10%;
         color: white;
         text-align: center;
+        font-family: $secondaryFont;
         @include fontSize(35)
+        
     }
     
 }
