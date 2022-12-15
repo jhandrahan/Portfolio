@@ -463,6 +463,11 @@ nav a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #EE5E59;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.aboutIcons ul li {
+  margin: 5px 0px 5px 0px;
 }
 .aboutIcons a {
   color: #EE5E59;

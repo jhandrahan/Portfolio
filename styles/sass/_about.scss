@@ -27,6 +27,11 @@
         display: flex;
         justify-content: space-between;
         color: $secondary;
+        flex-wrap: wrap;
+
+        li{
+            margin: 5px 0px 5px 0px;
+        }
         }
         a{
             color: $secondary;
