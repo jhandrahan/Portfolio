@@ -33,7 +33,14 @@
     }
 }
 
-@media (max-width: 920px){
+@media (max-width: 925px){
+  h1 {
+      @include fontSize(140);
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+
   .contact h3{
     @include fontSize(30)
   }
@@ -104,6 +111,16 @@
 
   }
 }
+@media (max-width: 480px){
+h1 {
+    @include fontSize(100);
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 
 
 
