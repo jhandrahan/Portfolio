@@ -786,12 +786,15 @@ footer p {
             align-items: center;
     text-align: center;
   }
+  .projectContainer .textContainer {
+    padding: 0;
+  }
   .projectImg {
     max-width: 80%;
     margin-top: 30px;
   }
   .wrapper {
-    width: 80%;
+    width: 100%;
   }
 }
 @media (max-width: 700px) {
