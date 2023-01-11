@@ -283,7 +283,7 @@ h4 {
 }
 
 p {
-  color: white;
+  color: #ccb7b6;
 }
 
 footer {
@@ -431,6 +431,7 @@ nav a:hover {
   z-index: 99;
   height: 100%;
   text-align: center;
+  padding-top: 50%;
 }
 
 .about {
@@ -732,7 +733,7 @@ footer p {
     bottom: 35%;
   }
   .contact h3 {
-    margin-bottom: 11%;
+    margin-bottom: 12%;
   }
 }
 @media (max-width: 1030px) {
@@ -766,12 +767,12 @@ footer p {
     font-size: 1.5rem;
   }
   form {
-    bottom: 15%;
+    bottom: 11%;
   }
 }
 @media (max-width: 895px) {
   .contact h3 {
-    margin-bottom: 11.5%;
+    margin-bottom: 13.5%;
   }
   form {
     bottom: 13%;
@@ -782,7 +783,7 @@ footer p {
     opacity: 0;
   }
   .contact h3 {
-    opacity: 0;
+    margin-bottom: 17.5%;
   }
 }
 @media (max-width: 800px) {
@@ -790,7 +791,7 @@ footer p {
     display: none;
   }
   .contact h3 {
-    display: none;
+    margin-bottom: 4%;
   }
   form {
     position: static;
@@ -823,6 +824,15 @@ footer p {
   .devIcons {
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .contact h2 {
+    font-size: 50px;
+    font-size: 2.5rem;
+  }
+  .contact h3 {
+    display: none;
   }
 }
 @media (max-width: 480px) {
