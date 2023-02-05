@@ -73,13 +73,16 @@ textarea{
     width: 100%;
 }
 
-input:hover{
+input:hover,
+input:focus{
     border: 1px solid $quaternary;
 }
 
-textarea:hover{
+textarea:hover,
+textarea:focus{
     border: 1px solid $quaternary;
 }
+
 
 
 
@@ -99,7 +102,8 @@ form {
     border: 1px solid $quaternary;
 }
 
-.formBtn:hover{
+.contactForm button:hover,
+.contactForm button:focus{
     color: white;
     border: 1px solid white;
 }

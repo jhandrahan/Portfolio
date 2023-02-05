@@ -1,3 +1,8 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -657,11 +662,13 @@ textarea {
   width: 100%;
 }
 
-input:hover {
+input:hover,
+input:focus {
   border: 1px solid #6d439b;
 }
 
-textarea:hover {
+textarea:hover,
+textarea:focus {
   border: 1px solid #6d439b;
 }
 
@@ -682,7 +689,8 @@ form {
   border: 1px solid #6d439b;
 }
 
-.formBtn:hover {
+.contactForm button:hover,
+.contactForm button:focus {
   color: white;
   border: 1px solid white;
 }
