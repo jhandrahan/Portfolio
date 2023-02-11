@@ -3,6 +3,8 @@
     scroll-behavior: smooth;
   }
 }
+
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -436,7 +438,6 @@ nav a:hover {
   z-index: 99;
   height: 100%;
   text-align: center;
-  padding-top: 50%;
 }
 
 .about {
