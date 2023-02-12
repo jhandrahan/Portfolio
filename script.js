@@ -1,13 +1,19 @@
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".desktopMenu")
+const hamburgerButton = document.querySelector("#hamburger");
+const closeHamburgerButton = document.querySelector(".closeMenu");
+const hamburgerMenu = document.querySelector('.slideOutNav');
+const navOptions = document.querySelector('.desktopMenu');
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("show");
-    navMenu.classList.toggle("show");
-})
+hamburgerButton.addEventListener('click', (event) => {
+    hamburgerMenu.classList.add('open');
+});
 
-document.querySelectorAll(".link").forEach(n => n.addEventListener('click', () => {
-    hamburger.classList.remove("show");
-    navMenu.classList.remove("show");
-}))
+closeHamburgerButton.addEventListener('click', (event) => {
+    hamburgerMenu.classList.remove('open');
+});
+
+navOptions.addEventListener('click', (event)=>{
+    hamburgerMenu.classList.remove('open');
+});
+
+

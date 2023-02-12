@@ -1,10 +1,3 @@
-@media screen and (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
-
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -315,6 +308,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h2 {
@@ -401,43 +395,55 @@ nav ul {
   font-family: "Philosopher", sans-serif;
 }
 nav li {
-  margin: 10px 40px;
+  margin: 35px 40px;
 }
 nav a {
   color: white;
   text-decoration: none;
+  font-size: 35px;
+  font-size: 1.75rem;
 }
 nav a:hover {
-  text-decoration: underline;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bar {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin: 8px auto;
-  background-color: white;
-}
-
-.hamburger {
-  margin-left: 10px;
+#hamburger {
+  font-size: 35px;
+  padding-left: 10px;
+  padding-top: 5px;
   cursor: pointer;
-  position: fixed;
-  z-index: 100;
+  color: #551a8b;
+  background-color: black;
+  border: none;
+}
+#hamburger:hover, #hamburger:focus {
+  background-color: black;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.mobileMenu {
-  display: none;
-}
-
-.show {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.95);
-  position: fixed;
+.slideOutNav {
+  background-color: black;
+  color: #fff;
+  min-height: 100vh;
   width: 100%;
-  z-index: 99;
-  height: 100%;
-  text-align: center;
+  position: fixed;
+  z-index: 20;
+  top: -750px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slideOutNav.open {
+  top: 0;
 }
 
 .about {
@@ -762,7 +768,7 @@ footer p {
   h1 {
     font-size: 140px;
     font-size: 7rem;
-    padding-top: 50px;
+    padding-top: 45px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
