@@ -1,8 +1,3 @@
-@media screen and (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -256,7 +251,7 @@ h1 {
   font-family: #CA0266;
   font-size: 180px;
   font-size: 9rem;
-  text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px #CA0266;
+  text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px #551a8b;
 }
 
 span {
@@ -382,6 +377,7 @@ h1 {
 }
 .contactIcons i {
   margin-top: 10px;
+  color: #551a8b;
 }
 .contactIcons i:hover {
   -webkit-transform: scale(1.6);
@@ -442,7 +438,7 @@ nav a:hover {
   width: 100%;
   position: fixed;
   z-index: 20;
-  top: -750px;
+  top: -990px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -588,7 +584,7 @@ nav a:hover {
 }
 .contact h2 {
   color: #0A0A0A;
-  margin-bottom: 10px;
+  margin-bottom: 15%;
 }
 .contact a {
   padding: 10px 0px 5px 0px;
@@ -601,18 +597,10 @@ nav a:hover {
   opacity: 0.5;
   text-decoration: underline;
 }
-.contact h3 {
-  margin-top: 0;
-  margin-bottom: 10%;
-  color: white;
-  text-align: center;
-  font-family: "Mulish", sans-serif;
-  font-size: 35px;
-  font-size: 1.75rem;
-}
 
 .formMapContainer {
   position: relative;
+  margin-top: 17%;
 }
 
 form {
@@ -744,16 +732,10 @@ footer p {
     bottom: 45%;
     padding: 20px 35px;
   }
-  .contact h3 {
-    margin-bottom: 10.5%;
-  }
 }
 @media (max-width: 1200px) {
   form {
     bottom: 35%;
-  }
-  .contact h3 {
-    margin-bottom: 12%;
   }
 }
 @media (max-width: 1030px) {
@@ -782,18 +764,11 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contact h3 {
-    font-size: 30px;
-    font-size: 1.5rem;
-  }
   form {
     bottom: 11%;
   }
 }
 @media (max-width: 895px) {
-  .contact h3 {
-    margin-bottom: 13.5%;
-  }
   form {
     bottom: 13%;
   }
@@ -802,16 +777,13 @@ footer p {
   .map img {
     opacity: 0;
   }
-  .contact h3 {
-    margin-bottom: 17.5%;
-  }
 }
 @media (max-width: 800px) {
   .map img {
     display: none;
   }
-  .contact h3 {
-    margin-bottom: 4%;
+  .contact h2 {
+    margin-bottom: -7%;
   }
   form {
     position: static;
@@ -899,18 +871,8 @@ footer p {
     font-size: 20px;
     font-size: 1rem;
   }
-  .contactIcons {
-    position: static;
-  }
   .iconFlexContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .devIcons span {
-    font-size: 2.8rem;
+    display: none;
   }
   .contact h2 {
     font-size: 2rem;

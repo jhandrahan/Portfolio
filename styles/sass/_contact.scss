@@ -5,7 +5,7 @@
     text-align: center;
     h2{
         color: $quinary;
-        margin-bottom: 10px;
+        margin-bottom: 15%;
     }
     a{
         padding: 10px 0px 5px 0px;
@@ -19,20 +19,11 @@
     opacity: 0.5;
     text-decoration: underline;
     }
-
-    h3{
-        margin-top: 0;
-        margin-bottom: 10%;
-        color: white;
-        text-align: center;
-        font-family: $secondaryFont;
-        @include fontSize(35)
-        
-    }
     
 }
 .formMapContainer{
     position: relative;
+    margin-top: 17%;
 }
 form {
     position: absolute;
