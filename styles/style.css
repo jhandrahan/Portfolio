@@ -584,18 +584,40 @@ nav a:hover {
 }
 .contact h2 {
   color: #0A0A0A;
-  margin-bottom: 15%;
 }
-.contact a {
-  padding: 10px 0px 5px 0px;
+.contact .backToTop a {
+  padding-bottom: 10px;
   color: white;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-.contact a:hover {
+.contact .backToTop a:hover {
   color: #0EEBFB;
   opacity: 0.5;
   text-decoration: underline;
+}
+
+.contactPageIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contactPageIcons i {
+  margin: 5px;
+  color: #551a8b;
+}
+.contactPageIcons i:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .formMapContainer {
@@ -674,6 +696,7 @@ textarea:focus {
 
 .map img {
   opacity: 0.5;
+  margin-bottom: 7.5%;
 }
 
 form {
@@ -782,12 +805,10 @@ footer p {
   .map img {
     display: none;
   }
-  .contact h2 {
-    margin-bottom: -7%;
-  }
   form {
     position: static;
     margin-left: 0px;
+    margin-bottom: 17%;
   }
 }
 @media (max-width: 750px) {
@@ -808,9 +829,6 @@ footer p {
     max-width: 80%;
     margin-top: 30px;
   }
-  .wrapper {
-    width: 100%;
-  }
 }
 @media (max-width: 700px) {
   .devIcons {
@@ -823,8 +841,13 @@ footer p {
     font-size: 50px;
     font-size: 2.5rem;
   }
-  .contact h3 {
-    display: none;
+  .contact input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .contact textarea {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
@@ -875,19 +898,10 @@ footer p {
     display: none;
   }
   .contact h2 {
-    font-size: 2rem;
     margin-bottom: 40px;
   }
-  .contact a {
+  .backToTop a {
     font-size: 1rem;
     padding: 30px 0px 15px 0px;
-  }
-  input {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
-  textarea {
-    width: 100%;
   }
 }

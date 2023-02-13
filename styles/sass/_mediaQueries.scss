@@ -62,16 +62,14 @@
   .map img {
       display: none;
     }
-    .contact h2{
-      margin-bottom: -7%;
-    }
 
  form{
     position: static;
     margin-left: 0px;
+    margin-bottom: 17%;
    }
-
 }
+
 @media(max-width: 750px){
   .projectContainer{
     flex-direction: column;
@@ -87,10 +85,6 @@
     max-width: 80%;
     margin-top: 30px;
   }
-
-  .wrapper{
-    width: 100%;
-  }
 }
 
 
@@ -105,15 +99,22 @@
   }
 }
 @media (max-width: 500px){
-  .contact h2{
-    @include fontSize(50)
-  }
-  .contact h3 {
-     display: none;
+  .contact {
+    h2 {
+        @include fontSize(50)
+      }
+    input{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+    textarea {
+      width: 100%;
     }
+  }
+  
 }
-
-
+    
 @media (max-width: 480px){
 h1 {
     @include fontSize(100);
@@ -140,9 +141,6 @@ h1 {
 }
 
 
-
-
-
 @media (max-width: 400px){
  //HEADER 
   h1{
@@ -156,37 +154,25 @@ h1 {
       @include fontSize(20)
     }
 
-   
-
    .iconFlexContainer{
     display: none;
     
    }
 
-
-
 //CONTACT FORM
 
-.contact h2{
-  font-size: 2rem;
-  margin-bottom: 40px;
+.contact{
+  h2{
+    margin-bottom: 40px;
+  }
 }
 
-.contact a {
+.backToTop a {
     font-size: 1rem;
     padding: 30px 0px 15px 0px;
       
 }
-     input{
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 40px;
-     }
 
-    textarea {
-      width: 100%;
-    
-    }
 
  
     
