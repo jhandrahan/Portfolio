@@ -412,14 +412,23 @@ nav a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.navContainer {
+  position: fixed;
+  z-index: 100;
+}
+
 #hamburger {
+  margin: 10px;
   font-size: 35px;
-  padding-left: 10px;
-  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 11px;
+  padding-bottom: 7px;
   cursor: pointer;
   color: #551a8b;
   background-color: black;
   border: none;
+  border-radius: 50%;
 }
 #hamburger:hover, #hamburger:focus {
   background-color: black;
@@ -468,6 +477,7 @@ nav a:hover {
 
 .aboutIcons {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .aboutIcons ul {
   display: -webkit-box;
@@ -490,6 +500,22 @@ nav a:hover {
 .aboutIcons a:hover {
   color: #6d439b;
   opacity: 0.8;
+}
+
+.viewResume {
+  border: 1px solid #ccb7b6;
+  display: inline-block;
+  padding: 15px 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #ccb7b6;
+}
+
+.viewResume:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#6d439b), color-stop(#EE5E59), to(#CA0266));
+  background: linear-gradient(to bottom right, #6d439b, #EE5E59, #CA0266);
+  color: black;
 }
 
 .skills {
@@ -716,6 +742,7 @@ form {
 .contactForm button:focus {
   color: white;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 footer p {
@@ -900,7 +927,7 @@ footer p {
   .contact h2 {
     margin-bottom: 40px;
   }
-  .backToTop a {
+  .contact .backToTop a {
     font-size: 1rem;
     padding: 30px 0px 15px 0px;
   }

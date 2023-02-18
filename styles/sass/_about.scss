@@ -1,7 +1,8 @@
+
 .about{
     margin-top: 50px;
     margin-bottom: 50px;
-
+    
     p::first-letter {
         font-size: 200%;
         font-family: $primaryFont;
@@ -22,12 +23,14 @@
 
 
 .aboutIcons {
-    margin-top: 50px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
         ul{
         display: flex;
         justify-content: space-between;
         color: $secondary;
         flex-wrap: wrap;
+       
 
         li{
             margin: 5px 0px 5px 0px;
@@ -45,3 +48,17 @@
 
 
 
+.viewResume{
+    border: 1px solid #ccb7b6;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #ccb7b6;
+}
+
+
+.viewResume:hover{
+    background: linear-gradient(to bottom right, $quaternary, $secondary, $primary);
+    color: black;
+}

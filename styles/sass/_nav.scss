@@ -18,19 +18,29 @@ nav {
         background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary, );
         background-clip: text;
         -webkit-text-fill-color: transparent;
-   
     }
 }
 
+.navContainer{
+    position: fixed;
+    z-index: 100;
+}
+
+
 #hamburger {
+    margin: 10px;
     font-size: 35px;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 11px;
+    padding-bottom: 7px;
     cursor: pointer;
     color: #551a8b;
     background-color: black;
     border: none;
+    border-radius: 50%;
 
+   
     &:hover,
     &:focus {
         background-color: black;
@@ -53,7 +63,6 @@ nav {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
-
 
 .slideOutNav.open {
     top: 0;
