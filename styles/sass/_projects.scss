@@ -25,7 +25,16 @@
 
 .textContainer{
     padding-right: 10%;
+    a{
+        
+        color: $quaternary;
+
+        &:hover{
+            color: $tertiary;
+        }
+    }
 }
+
 
 .projectImg{
     max-width: 30%;

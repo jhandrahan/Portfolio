@@ -590,6 +590,12 @@ nav a:hover {
 .textContainer {
   padding-right: 10%;
 }
+.textContainer a {
+  color: #6d439b;
+}
+.textContainer a:hover {
+  color: #0EEBFB;
+}
 
 .projectImg {
   max-width: 30%;
