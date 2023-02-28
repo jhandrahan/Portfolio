@@ -266,13 +266,13 @@ span {
 h2 {
   font-size: 65px;
   font-size: 3.25rem;
-  color: #6d439b;
+  color: #895cb9;
   text-shadow: 1.5px 1.5px 2px rgba(248, 246, 246, 0.8);
 }
 
 h3 {
   font-family: "Philosopher", sans-serif;
-  color: #6d439b;
+  color: #895cb9;
   font-size: 45px;
   font-size: 2.25rem;
 }
@@ -328,8 +328,8 @@ section {
 }
 
 .btn {
-  background: -webkit-gradient(linear, left top, right bottom, from(#6d439b), color-stop(#EE5E59), to(#CA0266));
-  background: linear-gradient(to bottom right, #6d439b, #EE5E59, #CA0266);
+  background: -webkit-gradient(linear, left top, right bottom, from(#895cb9), color-stop(#EE5E59), to(#CA0266));
+  background: linear-gradient(to bottom right, #895cb9, #EE5E59, #CA0266);
   border-radius: 12px;
   color: #0A0A0A;
   font-weight: bold;
@@ -382,7 +382,7 @@ h1 {
 .contactIcons i:hover {
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
-  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  background-image: linear-gradient(45deg, #895cb9, #CA0266, #EE5E59, #0EEBFB);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -406,7 +406,7 @@ nav a {
 }
 nav a:hover {
   font-weight: bold;
-  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  background-image: linear-gradient(45deg, #895cb9, #CA0266, #EE5E59, #0EEBFB);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -434,7 +434,7 @@ nav a:hover {
   background-color: black;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  background-image: linear-gradient(45deg, #895cb9, #CA0266, #EE5E59, #0EEBFB);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -463,7 +463,7 @@ nav a:hover {
 .about p::first-letter {
   font-size: 200%;
   font-family: "Philosopher", sans-serif;
-  color: #6d439b;
+  color: #895cb9;
   text-shadow: 1.5px 1.5px 2px rgba(248, 246, 246, 0.8);
 }
 
@@ -498,7 +498,7 @@ nav a:hover {
   text-decoration: none;
 }
 .aboutIcons a:hover {
-  color: #6d439b;
+  color: #895cb9;
   opacity: 0.8;
 }
 
@@ -513,13 +513,13 @@ nav a:hover {
 }
 
 .viewResume:hover {
-  background: -webkit-gradient(linear, left top, right bottom, from(#6d439b), color-stop(#EE5E59), to(#CA0266));
-  background: linear-gradient(to bottom right, #6d439b, #EE5E59, #CA0266);
+  background: -webkit-gradient(linear, left top, right bottom, from(#895cb9), color-stop(#EE5E59), to(#CA0266));
+  background: linear-gradient(to bottom right, #895cb9, #EE5E59, #CA0266);
   color: black;
 }
 
 .skills {
-  background-color: #6d439b;
+  background-color: #895cb9;
 }
 .skills h2 {
   color: black;
@@ -591,7 +591,7 @@ nav a:hover {
   padding-right: 10%;
 }
 .textContainer a {
-  color: #6d439b;
+  color: #895cb9;
 }
 .textContainer a:hover {
   color: #0EEBFB;
@@ -611,7 +611,7 @@ nav a:hover {
 .contact {
   margin: 50px 0px 0px 0px;
   padding: 50px 0px 0px 0px;
-  background-color: #6d439b;
+  background-color: #895cb9;
   text-align: center;
 }
 .contact h2 {
@@ -646,7 +646,7 @@ nav a:hover {
 .contactPageIcons i:hover {
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
-  background-image: linear-gradient(45deg, #6d439b, #CA0266, #EE5E59, #0EEBFB);
+  background-image: linear-gradient(45deg, #895cb9, #CA0266, #EE5E59, #0EEBFB);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -718,12 +718,12 @@ textarea {
 
 input:hover,
 input:focus {
-  border: 1px solid #6d439b;
+  border: 1px solid #895cb9;
 }
 
 textarea:hover,
 textarea:focus {
-  border: 1px solid #6d439b;
+  border: 1px solid #895cb9;
 }
 
 .map img {
@@ -740,8 +740,8 @@ form {
   line-height: 1.5;
   padding: 0 10px;
   margin-top: 35px;
-  background: #6d439b;
-  border: 1px solid #6d439b;
+  background: #895cb9;
+  border: 1px solid #895cb9;
 }
 
 .contactForm button:hover,
