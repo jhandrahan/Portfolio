@@ -24,13 +24,9 @@
 <body>
 
 <!-- STRETCH GOALS
-1. RESUME ATTACHED
-2. MAKE SOME TRANSFORM EFFECTS WHEN SCROLLING DOWN
-3. LINK JAMES TO OUR POKEMON APP
-4. TRY AND MAKE A LETTER DROP FOR THE HEADER WITH MY NAME
-5. DARK/LIGHT SWITCH -->
-
-
+1. MAKE SOME TRANSFORM EFFECTS WHEN SCROLLING DOWN
+2. TRY AND MAKE A LETTER DROP FOR THE HEADER WITH MY NAME
+3. DARK/LIGHT SWITCH -->
 
 <header id="home">
    <div class="navContainer">
@@ -78,173 +74,174 @@
 
     <main>
         
+        <section class="about wrapper" id="about">
+            <div class="profileImg">
+                <img src="./assets/profilePicture_n.jpeg" alt="picture of Jessica">
+            </div>
 
-            <section class="about wrapper" id="about">
+            <h2>About Me</h2>
+            <p>I'm Jessica Handrahan. A front-end web developer with a background in healthcare.</p> 
 
-                <div class="profileImg"><img src="./assets/profilePicture_n.jpeg" alt="picture of Jessica"></div>
-                <h2>About Me</h2>
-                <p>I'm Jessica Handrahan. A front-end web developer with a background in healthcare.</p> 
-
-                <p>I gravitate to complex challenges, puzzles and problem solving; so when I discovered coding, I fell in love. Every
-                project I complete is a learning experience that offers new opportunities to expand and fine tune my skill set. An
-                experience that is both satisfying and rewarding.</p>
-               
-                <p>When I'm not coding, I enjoy exploring the great outdoors with my dog Lucy. An adventurer at heart, I value experiences
-                and the people I meet along the way as I live my best life. </p>
-
-                <div class="aboutIcons">
-                    <ul>
-                        <li><a href="https://www.google.com/maps/place/Fredericton,+NB/@45.94556,-66.7362915,12z/data=!3m1!4b1!4m6!3m5!1s0x4ca4220ba498fb2b:0xe7de2f297a415db4!8m2!3d45.9635895!4d-66.6431151!16zL20vMDJ3NzA"><i class="fa-solid fa-location-dot"></i> Fredericton NB</a></li>
-                        <li><i class="fa-solid fa-briefcase"></i> Front-end Web Developer</li>
-                        <li><i class="fa-solid fa-heart"></i> Lucy </li>
-                    </ul>   
-                </div>
-
-                <a class="viewResume" href="./assets/resume.pdf" target="_blank">Resume</a>
-
-            </section> 
-
-            <section class="skills">
-                <h2>Skills</h2>
-                    <ul class="devIcons">
-                        <li><span><i class="devicon-css3-plain"></i></span>CSS3</li>
-                        <li><span><i class="devicon-html5-plain"></i></span>HTML5</li>
-                        <li><span><i class="devicon-sass-original"></i></span>Sass</li>
-                        <li><span><i class="devicon-javascript-plain"></i></span>Javascript</li>
-                        <li><span><i class="devicon-firebase-plain"></i></span>Firebase</li>
-                        <li><span><i class="devicon-react-original"></i></span>React</li>
-                        <li><span><i class="devicon-github-original"></i></span>Git/Github</li>
-                    </ul>
-            </section>
-
-            <section class="projects wrapper" id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <!-- <li>
-                        <div class="projectContainer">
-                            <div class="textContainer">
-                                <h3>Drive Solo</h3>
-                                <h4>HTML5 | CSS </h4>
-                                <p>Drive Solo is a simple web page created from a provided design.</p>
-                                <button class="btn"><a href="https://github.com/jhandrahan/assignment1"> View GitHub</a></button>
-                                <button class="btn"><a href="https://dulcet-meerkat-e55d55.netlify.app/"> View Live</a></button>
-                            </div>
-                    
-                            <div class="projectImg">
-                                <img src="./assets/macDriveSolo.png" alt="an open laptop with desktop showing DriveSolo website">
-                            </div>
-                        </div>
-                    </li> -->
-
-                     <li>
-                        <div class="projectContainer">
-                            <div class="textContainer">
-                                <h3>Recipe-Finder</h3>
-                                <h4>HTML5 | CSS3 | Javascript | APIs | React </h4>
-                                <p>A Recipe App that allows the user to search for different recipes by ingredients or dishes.</p>
-                                <button class="btn"><a href="https://github.com/jhandrahan/JessicaHandrahnProject3"> View GitHub</a></button>
-                                <button class="btn"><a href="https://transcendent-trifle-3d5dba.netlify.app/">View Live</a></button>
-                            </div>
-                    
-                            <div class="projectImg">
-                                <img src="./assets/recipe-finderlaptop.png" alt="macbook open showing recipe-finder app">
-                    
-                            </div>
-                        </div>
-                    </li>
-                    
-
-                    <li>
-                        <div class="projectContainer">
-                            <div class="textContainer">
-                            <h3>Bar-One</h3>
-                            <h4>HTML5 | Sass | Javascript | PSD Conversion </h4>
-                            <p>Bar-One is an accessible multi-page website created from a PSD conversion. It is fully responsive across all devices and functional. </p>
-                            <button class="btn"><a href="https://github.com/jhandrahan/jessicaHandrahanProject1"> View GitHub</a></button>
-                            <button class="btn"><a href="https://shiny-bunny-d8ca0e.netlify.app/#">View Live</a></button>
-                            </div>
-                            
-                            <div class="projectImg">
-                                <img src="./assets/mobileBarOne.png" alt="phone with Bar-One website showing"> 
-                                <img src="./assets/laptop.png" alt="an open laptop with desktop showing Bar-One website">
-                            </div>    
-                        </div>   
-                    </li>
-
-                    <li>
-                        <div class="projectContainer">
-                            <div class="textContainer">
-                                <h3>Pokemon Battle Chart</h3>
-                                <h4>HTML5 | Sass | Javascript | APIs </h4>
-                                <p>Pokemon Battle Chart: Search your favourite Pokemon by name or 'Pokedex number' to see its strengths and weaknesses. Demonstrates Javascript, RESTful APIs and pair programming with <a href="https://james-sto-tomas.netlify.app/">James Sto.Tomas</a>.</p>
-                                <button class="btn"><a href="https://github.com/pocket0079/projectTwo"> View GitHub</a></button>
-                                <button class="btn"><a href="https://glittering-pothos-778eba.netlify.app/">View Live</a></button>
-                            </div>
-                    
-                            <div class="projectImg">
-                                <img src="./assets/mockup.png" alt="Apple destop with Pokemon Battle Chart website on screen">
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="projectContainer">
-                            <div class="textContainer">
-                                <h3>Giphy-Sentiment</h3>
-                                <h4>HTML5 | Sass | Javascript | APIs | Firebase | React </h4>
-                                <p>Giphy-Sentiment captures and represents people's emotional states using gifs and shows the data over a period of time to show how emotions change throughout the year.</p>
-                                <button class="btn"><a href="https://github.com/Giphy-Sentiment-App"> View GitHub</a></button>
-                                <button class="btn"><a href="https://giphy-sentiment-main.netlify.app/">View Live</a></button>
-                            </div>
-                    
-                            <div class="projectImg">
-                                <img src="./assets/giphyMock.png" alt="an open laptop with desktop showing Bar-One website">
-                    
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-            </section>
-
-            <section class="contact" id="contact">
+            <p>I gravitate to complex challenges, puzzles and problem solving; so when I discovered coding, I fell in love. Every
+            project I complete is a learning experience that offers new opportunities to expand and fine tune my skill set. An
+            experience that is both satisfying and rewarding.</p>
             
-                <h2>Contact</h2>
+            <p>When I'm not coding, I enjoy exploring the great outdoors with my dog Lucy. An adventurer at heart, I value experiences
+            and the people I meet along the way as I live my best life. </p>
 
-                <div class="contactContainer">
-                    <ul class="contactPageIcons">
-                        <li><a href="https://www.instagram.com/jess_62/"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/JessHandrahan"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/jessica-handrahan-01a808244/"><i class="fa-brands fa-linkedin"></i></a>
-                        </li>
-                        <li><a href="https://github.com/jhandrahan"><i class="fa-brands fa-github"></i></a></li>
-                    </ul>
-                </div>
-                  
-                <div class="formMapContainer">
+            <div class="aboutIcons">
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/Fredericton,+NB/@45.94556,-66.7362915,12z/data=!3m1!4b1!4m6!3m5!1s0x4ca4220ba498fb2b:0xe7de2f297a415db4!8m2!3d45.9635895!4d-66.6431151!16zL20vMDJ3NzA"><i class="fa-solid fa-location-dot"></i> Fredericton NB</a></li>
+                    <li><i class="fa-solid fa-briefcase"></i> Front-end Web Developer</li>
+                    <li><i class="fa-solid fa-heart"></i> Lucy </li>
+                </ul>   
+            </div>
 
-                    <form action="" class="contactForm" name="contactForm">
-                        <label for="name" class="sr-only">Name</label>
-                        <input type="text" id="name" placeholder="Name">
-                        
-                        <label for="email" class="sr-only">Email</label>
-                        <input type="text" id="email" placeholder="Email address">
-                        
-                        <label for="message" class="sr-only">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-                        
-                        <button class="formBtn" type="submit">Send</button>
-                    </form>
-                    
-                    <div class="map"><img src="./assets/map.png" alt="the map for the background image"></div>
+            <a class="viewResume" href="./assets/resume.pdf" target="_blank">Resume</a>
 
-                </div>
+        </section> 
+
+        <section class="skills">
+            <h2>Skills</h2>
+                <ul class="devIcons">
+                    <li><span><i class="devicon-css3-plain"></i></span>CSS3</li>
+                    <li><span><i class="devicon-html5-plain"></i></span>HTML5</li>
+                    <li><span><i class="devicon-sass-original"></i></span>Sass</li>
+                    <li><span><i class="devicon-javascript-plain"></i></span>Javascript</li>
+                    <li><span><i class="devicon-firebase-plain"></i></span>Firebase</li>
+                    <li><span><i class="devicon-react-original"></i></span>React</li>
+                    <li><span><i class="devicon-github-original"></i></span>Git/Github</li>
+                </ul>
+        </section>
+
+        <section class="projects wrapper" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <!-- <li>
+                    <div class="projectContainer">
+                        <div class="textContainer">
+                            <h3>Drive Solo</h3>
+                            <h4>HTML5 | CSS </h4>
+                            <p>Drive Solo is a simple web page created from a provided design.</p>
+                            <button class="btn"><a href="https://github.com/jhandrahan/assignment1"> View GitHub</a></button>
+                            <button class="btn"><a href="https://dulcet-meerkat-e55d55.netlify.app/"> View Live</a></button>
+                        </div>
                 
-                <div class="backToTop">
-                    <a href="#home" class="backToTopLink" aria-label="Scroll to Top">Click here to go back to the top</a>
-                </div>
-                 
-            </section> 
+                        <div class="projectImg">
+                            <img src="./assets/macDriveSolo.png" alt="an open laptop with desktop showing DriveSolo website">
+                        </div>
+                    </div>
+                </li> -->
+
+                    <li>
+                    <div class="projectContainer">
+                        <div class="textContainer">
+                            <h3>Recipe-Finder</h3>
+                            <h4>HTML5 | CSS3 | Javascript | APIs | React </h4>
+                            <p>A Recipe App that allows the user to search for different recipes by ingredients or dishes.</p>
+                            <button class="btn"><a href="https://github.com/jhandrahan/JessicaHandrahnProject3"> View GitHub</a></button>
+                            <button class="btn"><a href="https://transcendent-trifle-3d5dba.netlify.app/">View Live</a></button>
+                        </div>
+                
+                        <div class="projectImg">
+                            <img src="./assets/recipe-finderlaptop.png" alt="macbook open showing recipe-finder app">
+                
+                        </div>
+                    </div>
+                </li>
+                
+
+                <li>
+                    <div class="projectContainer">
+                        <div class="textContainer">
+                        <h3>Bar-One</h3>
+                        <h4>HTML5 | Sass | Javascript | PSD Conversion </h4>
+                        <p>Bar-One is an accessible multi-page website created from a PSD conversion. It is fully responsive across all devices and functional. </p>
+                        <button class="btn"><a href="https://github.com/jhandrahan/jessicaHandrahanProject1"> View GitHub</a></button>
+                        <button class="btn"><a href="https://shiny-bunny-d8ca0e.netlify.app/#">View Live</a></button>
+                        </div>
+                        
+                        <div class="projectImg">
+                            <img src="./assets/mobileBarOne.png" alt="phone with Bar-One website showing"> 
+                            <img src="./assets/laptop.png" alt="an open laptop with desktop showing Bar-One website">
+                        </div>    
+                    </div>   
+                </li>
+
+                <li>
+                    <div class="projectContainer">
+                        <div class="textContainer">
+                            <h3>Pokemon Battle Chart</h3>
+                            <h4>HTML5 | Sass | Javascript | APIs | Pair Programming </h4>
+                            <p>Pokemon Battle Chart: Search your favourite Pokemon by name or 'Pokedex number' to see its strengths and weaknesses. Demonstrates Javascript, RESTful APIs and pair programming with <a href="https://james-sto-tomas.netlify.app/">James Sto.Tomas</a>.</p>
+                            <button class="btn"><a href="https://github.com/pocket0079/projectTwo"> View GitHub</a></button>
+                            <button class="btn"><a href="https://glittering-pothos-778eba.netlify.app/">View Live</a></button>
+                        </div>
+                
+                        <div class="projectImg">
+                            <img src="./assets/mockup.png" alt="Apple destop with Pokemon Battle Chart website on screen">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectContainer">
+                        <div class="textContainer">
+                            <h3>Giphy-Sentiment</h3>
+                            <h4>HTML5 | Sass | Javascript | APIs | Firebase | React | Pair Programming </h4>
+                            <p>Giphy-Sentiment captures and represents people's emotional states using gifs and shows the data over a period of time to show how emotions change throughout the year.</p>
+                            <button class="btn"><a href="https://github.com/Giphy-Sentiment-App"> View GitHub</a></button>
+                            <button class="btn"><a href="https://giphy-sentiment-main.netlify.app/">View Live</a></button>
+                        </div>
+                
+                        <div class="projectImg">
+                            <img src="./assets/giphyMock.png" alt="an open laptop with desktop showing Bar-One website">
+                
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="contact" id="contact">
+        
+            <h2>Contact</h2>
+
+            <div class="contactContainer">
+                <ul class="contactPageIcons">
+                    <li><a href="https://www.instagram.com/jess_62/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/JessHandrahan"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jessica-handrahan-01a808244/"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://github.com/jhandrahan"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+                
+            <div class="formMapContainer">
+
+                <form action="" class="contactForm" name="contactForm">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" id="name" placeholder="Name">
+                    
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="text" id="email" placeholder="Email address">
+                    
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                    
+                    <button class="formBtn" type="submit">Send</button>
+                </form>
+                
+                <div class="map"><img src="./assets/map.png" alt="the map for the background image"></div>
+
+            </div>
+            
+            <div class="backToTop">
+                <a href="#home" class="backToTopLink" aria-label="Scroll to Top">Click here to go back to the top</a>
+            </div>
+                
+        </section> 
         
     </main>
     <footer>
