@@ -365,7 +365,6 @@ header {
 h1 {
   text-align: center;
   margin: 0px;
-  padding-right: 90px;
 }
 
 .contactIcons {
@@ -786,12 +785,6 @@ footer p {
   opacity: 1;
 }
 
-@media (max-width: 1380px) {
-  form {
-    bottom: 45%;
-    padding: 20px 35px;
-  }
-}
 @media (max-width: 1200px) {
   form {
     bottom: 35%;
@@ -801,16 +794,6 @@ footer p {
   form {
     bottom: 25%;
   }
-}
-@media (max-width: 1015px) {
-  h1 {
-    padding-right: 0px;
-  }
-  form {
-    bottom: 23%;
-  }
-}
-@media (max-width: 925px) {
   h1 {
     font-size: 140px;
     font-size: 7rem;
@@ -823,6 +806,13 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+@media (max-width: 1015px) {
+  form {
+    bottom: 23%;
+  }
+}
+@media (max-width: 925px) {
   form {
     bottom: 11%;
   }
