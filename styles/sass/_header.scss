@@ -1,37 +1,42 @@
 header {
-    background-image: url(../assets/pexels-junior-teixeira-2047905.jpg);
-    background-size: cover;
-    background-position: center;  
-    min-height: 100vh;
-    width: 100vw;
+  background-image: url(../assets/pexels-junior-teixeira-2047905.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 h1 {
-    text-align: center;
-    margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
 // social media icons
 .contactIcons {
-    position: absolute;
-    bottom: 1px;
-    margin: 15px;
-    font-size: 35px;
-    right: 1px;
-    
-   
-    i{
-        margin-top: 10px;
-        color: #551a8b;
-    }
+  position: absolute;
+  bottom: 1px;
+  margin: 15px;
+  font-size: 35px;
+  right: 1px;
 
-    i:hover{
-        transform: scale(1.6);
-        background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary,);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+  i {
+    margin-top: 10px;
+    color: #551a8b;
+  }
+
+  i:hover {
+    transform: scale(1.6);
+    background-image: linear-gradient(
+      45deg,
+      $quaternary,
+      $primary,
+      $secondary,
+      $tertiary
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .animate__bounceInDown {
-    --animate-duration: 2s;
+  --animate-duration: 2s;
 }

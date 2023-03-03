@@ -1,50 +1,49 @@
 html {
-    font-size: 125%;
+  font-size: 125%;
 }
 
 body {
-    font-family: $secondaryFont;
-    color: $primary;
-    @include fontSize(25);
+  font-family: $secondaryFont;
+  color: $primary;
+  @include fontSize(25);
 }
 
-h1{
-    color: white;
-    font-family: $primary;
-    @include fontSize(180);
-    text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px #551a8b;
+h1 {
+  color: white;
+  font-family: $primary;
+  @include fontSize(180);
+  text-shadow: -1px -1px 0px #c5518b, 3px 3px 0px black, 6px 6px 0px #551a8b;
 }
-
 
 span {
-    text-shadow: none;
-    @include fontSize(40);
-    color: $primary;
-    font-weight: 200;
-    text-decoration: underline;
+  text-shadow: none;
+  @include fontSize(40);
+  color: $primary;
+  font-weight: 200;
+  text-decoration: underline;
 }
 
 h2 {
-    @include fontSize(65);
-    color: $quaternary;
-    text-shadow: 1.5px 1.5px 2px rgba(248, 246, 246, 0.8);
+  @include fontSize(65);
+  color: $quaternary;
+  text-shadow: 1.5px 1.5px 2px rgba(248, 246, 246, 0.8);
 }
-h3{
-    font-family: $primaryFont;
-    color: $quaternary;
-    @include fontSize(45);
-}
-
-h4{
-    @include fontSize(20);
+h3 {
+  font-family: $primaryFont;
+  color: $quaternary;
+  @include fontSize(45);
 }
 
-p{
-    color: #ccb7b6;
+h4 {
+  @include fontSize(20);
 }
 
-footer{
-    @include fontSize(18);
-    background-color: $quinary;
-    color: white;
+p {
+  color: #ccb7b6;
+}
+
+footer {
+  @include fontSize(18);
+  background-color: $quinary;
+  color: white;
 }

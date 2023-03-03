@@ -1,69 +1,78 @@
 nav {
-    ul {
-        font-family: $primaryFont;
-    }
+  ul {
+    font-family: $primaryFont;
+  }
 
-    li {
-        margin: 35px 40px;
-    }
+  li {
+    margin: 35px 40px;
+  }
 
-    a {
-        color: white;
-        text-decoration: none;
-        @include fontSize(35);
-    }
+  a {
+    color: white;
+    text-decoration: none;
+    @include fontSize(35);
+  }
 
-    a:hover {
-        font-weight: bold;
-        background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary, );
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+  a:hover {
+    font-weight: bold;
+    background-image: linear-gradient(
+      45deg,
+      $quaternary,
+      $primary,
+      $secondary,
+      $tertiary
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
-.navContainer{
-    position: fixed;
-    z-index: 100;
+.navContainer {
+  position: fixed;
+  z-index: 100;
 }
-
 
 #hamburger {
-    margin: 10px;
-    font-size: 35px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 11px;
-    padding-bottom: 7px;
-    cursor: pointer;
-    color: #551a8b;
-    background-color: black;
-    border: none;
-    border-radius: 50%;
+  margin: 10px;
+  font-size: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 11px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  color: #551a8b;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
 
-   
-    &:hover,
-    &:focus {
-        background-color: black;
-        transform: scale(1.2);
-        background-image: linear-gradient(45deg, $quaternary, $primary, $secondary, $tertiary, );
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+  &:hover,
+  &:focus {
+    background-color: black;
+    transform: scale(1.2);
+    background-image: linear-gradient(
+      45deg,
+      $quaternary,
+      $primary,
+      $secondary,
+      $tertiary
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
-
 .slideOutNav {
-    background-color: black;
-    color: #fff;
-    min-height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 20;
-    top: -990px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  background-color: black;
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: -990px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .slideOutNav.open {
-    top: 0;
+  top: 0;
 }

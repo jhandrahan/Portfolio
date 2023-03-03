@@ -1,38 +1,35 @@
-.skills{
-    background-color: $quaternary;
+.skills {
+  background-color: $quaternary;
 
-    h2{
-        color: black;
-    }
+  h2 {
+    color: black;
+  }
 }
 
-.devIcons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 14%;
-    margin-right: 14%;
+.devIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 14%;
+  margin-right: 14%;
 }
 
-
-.devIcons li{
-    color: white;
-    text-align: center;
-    margin: 20px;
-   
+.devIcons li {
+  color: white;
+  text-align: center;
+  margin: 20px;
 }
 
-.devIcons span{
-    color: white;
-    @include fontSize(100);
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-
+.devIcons span {
+  color: white;
+  @include fontSize(100);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
-.devIcons li:hover{
-    color: $tertiary;
-    opacity: 0.5;
-    transform: scale(1.2);
+.devIcons li:hover {
+  color: $tertiary;
+  opacity: 0.5;
+  transform: scale(1.2);
 }
